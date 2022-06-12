@@ -2,7 +2,7 @@ import React from 'react'
 
 const Support = () => {
   return (
-    <section className="text-center py-6  bg-[#2e97a9]">
+    <section className="text-center py-6  bg-[#2e97a9]" id="support">
     <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
       Call to Action
     </h1>

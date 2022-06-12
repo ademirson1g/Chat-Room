@@ -8,9 +8,10 @@ const Header = () => {
   return (
 
     <>
-    <div className="header bg-[#9793c6] flex items-center justify-between px-[5rem] pt-[2.4rem] text-[0.8rem]">
+    <div className='bg-[#9793c6] position: static'>
+    <div className="header flex items-center justify-between px-[5rem] pt-[2.4rem] text-[0.8rem] ">
         <a href='/'>
-        <img src={OCR_white} alt="" className='logo w-[42px] h-[42px]'/>
+        <img src={OCR_white} alt="" className='logo w-[42px] h-[42px] '  />
         </a>
         {/* <div className="buttons flex">
             <a href='/login'>
@@ -23,6 +24,7 @@ const Header = () => {
 
         {/* </div> */}
         
+    </div>
     </div>
     </>
     )

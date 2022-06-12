@@ -4,8 +4,8 @@ import OCR_white from '../images/testing.png';
 const About = () => {
   return (
       
-    <section className="bg-[#2e97a9] py-8">
-    <div className="container max-w-5xl mx-auto m-8">
+    <section className="bg-[#2e97a9] py-8" id="about" >
+    <div className="container max-w-5xl mx-auto m-8" >
       <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         About OCR
       </h1>

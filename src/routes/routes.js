@@ -18,7 +18,6 @@ const AppRouter = () => {
             <Routes>
             <Route path="/" element={
             <Fragment>
-                
                 <Header />
                 <Home />
                 <About/>
@@ -28,6 +27,8 @@ const AppRouter = () => {
                 
             </Fragment>
             } />
+                            <Route path="/services" element={<Services />} />
+
                 <Route path="/login" element={<Login />} />
                 <Route path="/registration" element={<Registration/>} />
                 <Route path="/welcome" element={<Welcome/>} />

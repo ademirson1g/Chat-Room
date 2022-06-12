@@ -104,13 +104,13 @@ function Chatting() {
           </a>
         </div>
       </header>
+      
       <main
         className="flex-1"
         style={{ maxHeight: 'calc(100% - var(--topbar-height))' }}
       >
         {renderContent()}
       </main>
-      <SupportBot/>
     </div>
     
   );

@@ -100,7 +100,7 @@ const Registration = () => {
     <div class="mt-10">
       <form action="#" onSubmit={handleSubmit}>
         <div class="flex flex-col mb-6">
-          <label for="email" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">First Name:</label>
+          <label for="first_name" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">First Name:</label>
           <div class="relative">
             <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
               <svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -109,9 +109,9 @@ const Registration = () => {
 
             <input 
             autoComplete='off'
-            id="email" 
-            type="email" 
-            name="email" 
+            id="first_name" 
+            type="first_name" 
+            name="first_name" 
             class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 text-black" 
             placeholder="First Name"
             onChange={handleChange}
@@ -122,7 +122,7 @@ const Registration = () => {
           </div>
 
           <div class="flex flex-col mb-6">
-          <label for="email" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Last Name:</label>
+          <label for="last_name" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Last Name:</label>
           <div class="relative">
             <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
               <svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -131,9 +131,9 @@ const Registration = () => {
 
             <input 
             autoComplete='off'
-            id="email" 
-            type="email" 
-            name="email" 
+            id="last_name" 
+            type="last_name" 
+            name="last_name" 
             class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 text-black" 
             placeholder="Last Name"
             onChange={handleChange}

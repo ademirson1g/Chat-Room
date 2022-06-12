@@ -6,6 +6,7 @@ import Message from './Message';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import SupportBot from '../SupportBot/SupportBot';
 
 const Channel = ({ user = null }) => {
   const db = firebase.firestore();

@@ -4,7 +4,7 @@ import {SiFlutter} from 'react-icons/si';
 function Services(){
   return (
 
-    <div className="bg-[#0677A1]">
+    <div className="bg-[#0677A1]" id="services">
     <div className="max-w-4xl mx-auto justify-center py-12" id="aboutus">
       <p className="text-2xl text-white text-center sm:text-4xl pt-4 font-bold">
         Services
