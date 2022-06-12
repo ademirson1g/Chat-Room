@@ -203,7 +203,7 @@ const Registration = () => {
     <div class="flex justify-center items-center mt-6">
       <a href="#" target="_blank" class="inline-flex items-center font-bold text-blue-500 hover:text-blue-700 text-xs text-center">
         <a href='/login'>
-        <span class="ml-2">Already have an account?? <br/> Login</span>
+        <span class="ml-2">Already have an account? <br/> Login</span>
         </a>
       </a>
     </div>
