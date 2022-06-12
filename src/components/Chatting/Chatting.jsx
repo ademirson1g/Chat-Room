@@ -69,12 +69,15 @@ function Chatting() {
           </p>
           <button
             onClick={signInWithGoogle}
-            className="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700"> 
+            className="border-[2px] rounded-[10px] text-white bg-[#2E97A9] px-[25px] py-[7px] hover:cursor-pointer font-bold focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"> 
             Sign in with Google 
             </button>
           
           <a href='/'>
-          <button class="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700">Back to Homepage</button>
+          <button 
+          className="border-[2px] text-white rounded-[10px] bg-[#2E97A9] px-[25px] py-[7px] hover:cursor-pointer font-bold focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Back to Homepage
+            </button>
           </a>
         </div>
       </div>
@@ -96,7 +99,7 @@ function Chatting() {
           {user ? (
             <button
               onClick={signOut}
-              className="uppercase text-sm font-medium text-black text-primary-500 hover:text-white tracking-wide hover:bg-primary-500 bg-transparent rounded py-2 px-4 mr-4 focus:outline-none focus:ring focus:ring-primary-500 focus:ring-opacity-75 transition-all"
+              className="uppercase text-sm font-medium text-black text-primary-500 tracking-wide hover:bg-primary-500 bg-transparent rounded py-2 px-4 mr-4 focus:outline-none focus:ring focus:ring-primary-500 focus:ring-opacity-75 transition-all"
             >
               Sign out
             </button>

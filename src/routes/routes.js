@@ -27,8 +27,7 @@ const AppRouter = () => {
                 
             </Fragment>
             } />
-                            <Route path="/services" element={<Services />} />
-
+                <Route path="/services" element={<Services />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/registration" element={<Registration/>} />
                 <Route path="/welcome" element={<Welcome/>} />
@@ -46,7 +45,7 @@ const AppRouter = () => {
                                     >Sorry we couldn't find this page. </p>
                                   <p class="mb-8">But dont worry, you can find plenty of other things on our homepage.</p>
                                   <a href='/'>
-                                  <button class="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700">Back to Homepage</button>
+                                  <button className="border-[2px] rounded-[10px] text-white bg-[#2E97A9] px-[25px] py-[7px] hover:cursor-pointer font-bold focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Back to Homepage</button>
                                   </a>
                             </div>
                             

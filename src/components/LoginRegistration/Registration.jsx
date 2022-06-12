@@ -190,10 +190,8 @@ const Registration = () => {
 
         </div>
 
-        
-
-        <div class="flex w-full">
-          <button type="submit" class="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-blue-600 hover:bg-blue-700 rounded py-2 w-full transition duration-150 ease-in">
+        <div class="flex w-full justify-center">
+          <button type="submit" class="border-[2px] rounded-[10px] bg-[#2E97A9] px-[25px] py-[7px] hover:cursor-pointer font-bold focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             <span class="mr-2 uppercase">Register</span>
           </button>   
         </div>
@@ -201,7 +199,7 @@ const Registration = () => {
       </form>
     </div>
     <div class="flex justify-center items-center mt-6">
-      <a href="#" target="_blank" class="inline-flex items-center font-bold text-blue-500 hover:text-blue-700 text-xs text-center">
+      <a href="#" target="_blank" class="inline-flex items-center font-bold text-[#2E97A9] hover:text-blue-700 text-xs text-center">
         <a href='/login'>
         <span class="ml-2">Already have an account? <br/> Login</span>
         </a>
