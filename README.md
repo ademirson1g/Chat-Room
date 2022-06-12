@@ -1,5 +1,2 @@
-Deployment Status Link from Heroku : 
+Deployment Status Link from Netlify : 
 https://onlinechatroomapp.herokuapp.com/
-
-    Takes some time to load when accessing the website first time
-# Chat-Room
